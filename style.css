@@ -29,3 +29,57 @@
         align-items: center;
         width: 100%;
     }
+
+    .button-mom {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btn-google {
+        width: 100%;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 30px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-facebook {
+        width: 100%;
+        border: none;
+        border-radius: 30px;
+        background-color: #475993;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .icongoogle {
+        display: flex;
+        
+    }
+
+    .iconfacebook {
+        display: flex;
+        
+    }
+
+    .h4btn1 {
+        margin-left: 10px
+    }
+    .h4btn2 {
+        margin-left: 10px;
+        color: white;
+    }
+
+    .h4centro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }

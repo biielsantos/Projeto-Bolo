@@ -11,10 +11,11 @@ body{
     font-size: 100%;
     background:  url(fundo.png);
     background-position: 100%;
-    background-size: 200%;
+    background-size: 250%;
     align-items: center;
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
 }
 .imglogo {
     padding: 10%;
