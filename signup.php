@@ -31,7 +31,7 @@
 
     <div class="cadastropai">
 
-        <input class="inptcadastro" id="placeteste" placeholder="Nome e Sobrenome"></input>
+        <input class="inptcadastro" id="placeteste" placeholder="Nome e Sobrenome" autofocus></input>
         <input class="inptcadastro" placeholder="Endereço de Email"></input>
         <input class="inptcadastro" placeholder="Telefone ou Celular"></input>
         <input class="inptcadastro" placeholder="Senha" type="password"></input>
