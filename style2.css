@@ -8,11 +8,10 @@
 }
 
 body{
-    font-size: 100%;
     background:  url(fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-color: #f1f1f1;
 }
 .imglogo {
     padding: 10%;

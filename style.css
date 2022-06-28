@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
-html {
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    background-color: #f1f1f1;
-}
+
 
 h4 {
     margin: 0;
@@ -134,4 +129,28 @@ h4 {
 
 .imgarrow {
     height: 35px;
+}
+
+
+.cima {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.imglateral {
+    height: 51px;
+    width: 51px;
+}
+
+.imgcarrinho {
+    width: 51px;
+    height: 51px;
+}
+
+.divflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
