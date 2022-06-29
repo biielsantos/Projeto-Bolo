@@ -4,79 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Detalhes do Produto</title>
 </head>
 
 <body>
     <header>
-        <img src="logo.png">
-        <nav>
-            <a>Menu</a>
-            <a>Carrinho</a>
-        </nav>
+        <div class="topo">
+            <nav>
+                <a>Menu</a>
+            </nav>
+            <img src="img/logo.png" width="50%">
+            <nav>
+                <a>Carrinho</a>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section>
-            <div>
+            <div class="nomebolo">
                 <h1> Customizado </h1>
-                <h2> 3 sabores</h2>
+                <h3><font size="2"> 3 sabores</font></h2>
             </div>
         </section>
         <section2>
-            <div>
-            <img src="imagemvazia.png">
+            <div class="imgbolo">
+            <img src="img/imagemvazia.png" width="70%">
             </div>               
         </section2>
 
         <section3>
-            <div>
+            <div class="nota">
                 <h3>4,7</h3>
-                <img src="estrela.png">
+                <img src="img/estrela.png">
             </div>
-            <div>
-                <h3>R$60,00</h3>
-                <h4>por kg</h4>
+            <div class="preco">
+                <h3>R$60,00 <p class="kilo">por kg</p> </h3>
             </div>
         </section3>
 
         <section4>
-            <div>
-                <h2>Descrição do produto</h2>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+            <div class="descproduto">
+                <h2 class="exproduto">Descrição do produto</h2>
+                <h4 class="falaproduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
             </div>
         </section4>
 
         <section5>
-            <div>
+            <div class="opcsabortxt">
                 <h2>Escolha os sabores</h2>           
             </div>
-            <div>
-                <select name="select">
-                    <option value="valor1">Opção 1</option>
-                    <option value="valor2">Opção 2</option>
-                    <option value="valor3">Opção 3</option>
-                  </select>
-
-                <select name="select">
-                    <option value="valor1">Opção 1</option>
-                    <option value="valor2">Opção 2</option>
-                    <option value="valor3">Opção 3</option>
-                  </select>
-
-                <select name="select">
-                    <option value="valor1">Opção 1</option>
-                    <option value="valor2">Opção 2</option>
-                    <option value="valor3">Opção 3</option>
-                  </select>
+            <div class="opcaosabor">
+                <div class="opc1">
+                    <select name="select">
+                        <option value="valor1">Opção 1</option>
+                        <option value="valor2">Opção 2</option>
+                        <option value="valor3">Opção 3</option>
+                      </select>
+                </div>
+                <div class="opc2">
+                    <select name="select">
+                        <option value="valor1">Opção 1</option>
+                        <option value="valor2">Opção 2</option>
+                        <option value="valor3">Opção 3</option>
+                      </select>
+                </div>
+                <div class="opc3">
+                    <select name="select">
+                        <option value="valor1">Opção 1</option>
+                        <option value="valor2">Opção 2</option>
+                        <option value="valor3">Opção 3</option>
+                      </select>
+                </div>
             </div>
         </section5>
     </main>
 
     <footer>
-        <h2>Observações:</h2>
-        <div>
-            <textarea style="resize: none;"></textarea>
+        <div class="obs">
+            <h2>Observações:</h2>
+        </div>
+        <div class="cxobs">
+            <textarea></textarea>
         </div>
         <div>
             <button>Comprar Agora</button>
