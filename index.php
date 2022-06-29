@@ -13,9 +13,19 @@
 <body>
     <div class="cima">
         <div class="divflex"><img class="imglateral" src="img/imglateral.png"></div>
-        <div class="divflex"><img class="imglogo" src="logo.png"></div>
+        <div class="divflex"><img class="imglogo" src="img/logo.png"></div>
         <div class="divflex"><img class="imgcarrinho" src="img/imgcarrinho.png"></div>
     </div>
+
+    <div>
+        <h4 class="h4bemvindo">Olá Gabriel!</h4>
+    </div>
+    <br>
+    <div>
+    <input class="inptpesquisa" type="text" placeholder="Pesquisar">
+    </div>
+
+
 </body>
 
 
